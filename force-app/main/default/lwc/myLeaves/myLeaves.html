@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="My Leaves">
+        <template if:true={myLeaves}>
+            <lightning-datatable
+                key-field="Id"
+                data={myLeaves}
+                columns={columns}
+            >
+            </lightning-datatable>
+        </template>
+        <template if:false={myLeaves}>
+            <p class="slds-p-around_medium">No leave records found.</p>
+        </template>
+    </lightning-card>
+</template>
