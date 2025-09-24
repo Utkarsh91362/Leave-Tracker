@@ -9,3 +9,4 @@ public with sharing class LeaveRequestSampleData {
         insert leaves;
     }
 }
+// LeaveRequestSampleData.createData();
